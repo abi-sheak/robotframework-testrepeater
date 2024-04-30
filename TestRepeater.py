@@ -11,7 +11,7 @@ class TestRepeater(SuiteVisitor):
         for iter in range(1, self.count+1):
             for test in suite.tests:
                 copy = test.copy(name=f"{iter} - {test.name}")
-                testcases.a1ppend(copy)
+                testcases.append(copy)
         suite.tests = testcases
 
     def end_suite(self, suite, result):
