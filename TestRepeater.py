@@ -89,3 +89,15 @@ class TestRepeater(SuiteVisitor):
         Called when a keyword ends.
         """
         pass
+
+    def start_return(self, keyword, result):
+        """
+        Called when a return starts.
+        """
+        pass
+
+    def end_return(self, keyword, result):
+        """
+        Called when a return ends.
+        """
+        pass
