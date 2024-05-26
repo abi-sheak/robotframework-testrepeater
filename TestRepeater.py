@@ -101,3 +101,159 @@ class TestRepeater(SuiteVisitor):
         Called when a return ends.
         """
         pass
+
+    def start_for(self, for_, result):
+        """
+        Called when a FOR loop starts.
+        """
+        pass
+
+    def end_for(self, if_, result):
+        """
+        Called when a FOR loop ends.
+        """
+        pass
+
+    def start_if(self, if_, result):
+        """
+        Called when an IF/ELSE structure starts.
+        """
+        pass
+
+    def end_if(self, if_, result):
+        """
+        Called when an IF/ELSE structure ends.
+        """
+        pass
+
+    def start_if_branch(self, branch, result):
+        """
+        Called when an IF/ELSE branch starts.
+        """
+        pass
+
+    def end_if_branch(self, branch, result):
+        """
+        Called when an IF/ELSE branch ends.
+        """
+        pass
+
+    def start_try(self, try_, result):
+        """
+        Called when a TRY/EXCEPT structure starts.
+        """
+        pass
+
+    def end_try(self, try_, result):
+        """
+        Called when a TRY/EXCEPT structure ends.
+        """
+        pass
+
+    def start_try_branch(self, branch, result):
+        """
+        Called when TRY, EXCEPT, ELSE or FINALLY branches start.
+        """
+        pass
+
+    def end_try_branch(self, branch, result):
+        """
+        Called when TRY, EXCEPT, ELSE or FINALLY branches ends.
+        """
+        pass
+
+    def start_while(self, while_, result):
+        """
+        Called when a WHILE loop starts.
+        """
+        pass
+
+    def end_while(self, while_, result):
+        """
+        Called when a WHILE loop ends.
+        """
+        pass
+
+    def start_while_iteration(self, iteration, result):
+        """
+        Called when a WHILE loop iteration starts.
+        """
+        pass
+
+    def end_while_iteration(self, iteration, result):
+        """
+        Called when a WHILE loop iteration ends.
+        """
+        pass
+
+    def start_var(self, var, result):
+        """
+        Called when a VAR element starts.
+        """
+        pass
+
+    def end_var(self, var, result):
+        """
+        Called when a VAR element ends.
+        """
+        pass
+
+    def start_continue(self, continue_, result):
+        """
+        Called when a CONTINUE element starts.
+        """
+        pass
+
+    def end_continue(self, continue_, result):
+        """
+        Called when a CONTINUE element ends.
+        """
+        pass
+
+    def start_break(self, break_, result):
+        """
+        Called when a BREAK element starts.
+        """
+        pass
+
+    def end_break(self, break_, result):
+        """
+        Called when a BREAK element ends.
+        """
+        pass
+
+    def start_error(self, error, result):
+        """
+        Called when a ERROR element starts.
+        """
+        pass
+
+    def end_error(self, error, result):
+        """
+        Called when a ERROR element ends.
+        """
+        pass
+
+    def start_message(self, message, result):
+        """
+        Called when a message starts.
+        """
+        pass
+
+    def end_message(self, message, result):
+        """
+        Called when a message ends.
+        """
+        pass
+
+    def start_body_item(self, item, result):
+        """
+        Called, by default, when keywords, messages or control structures start.
+        """
+        pass
+
+    def end_body_item(self, item, result):
+        """
+        Called, by default, when keywords, messages or control structures end.
+        """
+        pass
