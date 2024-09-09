@@ -9,7 +9,7 @@ with open(path.join(here, "README.md"), "r") as fd:
 
 setup(
     name='robotframework-testrepeater',
-    version='1.2.0',
+    version='1.2.1',
     description='A listener to repeat testscases for given iterations.',
     license="Apache License 2.0",
     author='abi-sheak, reharish',
